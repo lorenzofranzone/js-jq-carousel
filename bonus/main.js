@@ -28,7 +28,8 @@ $(document).ready(function() {
     $('.nav i.fa-circle').click(
       function() {
         // Al click sul cerchio specifico
-        // aggiungi la classe active
+        // aggiungi la classe active e
+        // rimuovila dal cerchio che la conserva
         $(this).addClass('active'));
 
         // aggiungi la classe active all'immagine X
