@@ -12,6 +12,18 @@ $(document).ready(function() {
       }
     );
 
+    // Keyboard Arrows Navigation
+    $(document).keydown(
+      function() {
+        if(event.keyCode == 39) {        // Right Arrow
+          clickNext();
+        }
+        else if (event.keyCode == 37) {  // Left Arrow
+          clickPrev();
+        }
+      }
+    );
+
 }); // document.ready()
 
 // Slider Arrow Right Next
